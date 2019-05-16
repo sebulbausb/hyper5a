@@ -108,6 +108,8 @@ h5 {
     line-height: 3;
 }
 
+.lesson__title {}
+
 .exercise__title {
     display: inline-block;
     margin: 0;
@@ -207,5 +209,28 @@ h5 {
 @media screen and (max-width: 992px) {
     .exercise__answer {
         min-height: 100px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .inner-wrapper {
+        padding: 30px 5px;
+    }
+    .page-no {
+        margin: 0;
+    }
+    header h4.text-right {
+        text-align: left !important;
+    }
+    .table td,
+    .table th {
+        padding: 5px;
+        font-size: 13px;
+    }
+    .triangle {
+        bottom: -27px;
+    }
+    .page-wrapper {
+        margin: 0 auto;
     }
 }
