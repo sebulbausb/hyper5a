@@ -139,8 +139,17 @@ h5 {
 
 .exercise__list {
     margin: 0;
-    padding-left: 16px;
-    list-style-type: square;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.exercise__list li::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    background: #b88bbf;
 }
 
 .table__spacer {
