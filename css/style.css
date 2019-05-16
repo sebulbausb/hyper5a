@@ -14,7 +14,8 @@ h5 {
 
 .page-wrapper {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 60px auto;
+    padding-bottom: 20px;
     background-color: white;
 }
 
@@ -30,12 +31,20 @@ h5 {
     background-color: #da1f3d;
 }
 
+.bg--green {
+    background-color: #22b24c;
+}
+
 .bg--gray {
     background-color: #e7e7e8;
 }
 
 .bg--bluetint-gray {
     background-color: #f0f6fc;
+}
+
+.bg--greentint-gray {
+    background-color: #f4faf3;
 }
 
 .bg--purple {
@@ -156,6 +165,23 @@ h5 {
     border-right: 10px solid #f0f6fc;
 }
 
+.table-primary tbody+tbody,
+.table-primary td,
+.table-primary th,
+.table-primary thead th {
+    border-color: white;
+}
+
+.table-primary {
+    background-color: #c7def4;
+}
+
+.table-primary thead th {
+    background: #5aacdf;
+    color: white;
+    text-align: center;
+}
+
 .exercise__answer::-webkit-input-placeholder {
     /* Edge */
     color: white;
@@ -168,6 +194,14 @@ h5 {
 
 .exercise__answer::placeholder {
     color: white;
+}
+
+.page-no {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-right: -20px;
+    margin-bottom: -20px;
 }
 
 @media screen and (max-width: 992px) {
