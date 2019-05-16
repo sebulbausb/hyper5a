@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #e7e7e8;
+    background-color: #f8f8f8;
     color: #58585a;
 }
 
@@ -28,17 +28,18 @@ h5 {
 
 .bg--red {
     background-color: #da1f3d;
-    color: white;
 }
 
 .bg--gray {
     background-color: #e7e7e8;
-    color: #8a288f;
+}
+
+.bg--bluetint-gray {
+    background-color: #f0f6fc;
 }
 
 .bg--purple {
     background-color: #8a288f;
-    color: white;
 }
 
 .bg--light-purple {
@@ -49,6 +50,34 @@ h5 {
     background-color: #f6f1f8;
 }
 
+.bg--blue {
+    background-color: #0089d0;
+}
+
+.bg--light-blue {
+    background-color: #5aacdf;
+}
+
+.bg--lighter-blue {
+    background-color: #c7def4;
+}
+
+.bg--orange {
+    background-color: #f5821f;
+}
+
+.bg--light-orange {
+    background-color: #fab072;
+}
+
+.bg--lighter-orange {
+    background-color: #fef7f0;
+}
+
+.color--white {
+    color: white;
+}
+
 .color--orange {
     color: #f5821f;
 }
@@ -57,8 +86,13 @@ h5 {
     color: #8a288f;
 }
 
+.color--blue {
+    color: #0089d0;
+}
+
 .exercise {
     padding: 10px;
+    margin-bottom: 15px;
 }
 
 .lesson__title {
@@ -68,7 +102,9 @@ h5 {
 .exercise__title {
     display: inline-block;
     margin: 0;
-    padding: 0 120px 0 10px;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 220px;
     font-size: 16px;
     line-height: 1.8;
 }
@@ -94,6 +130,30 @@ h5 {
     margin: 0;
     padding-left: 16px;
     list-style-type: square;
+}
+
+.table__spacer {
+    height: 40px;
+}
+
+.triangle-placeholder {
+    position: relative;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid #0089d0;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.table-borderless .border--blue {
+    border-right: 10px solid #f0f6fc;
 }
 
 .exercise__answer::-webkit-input-placeholder {
