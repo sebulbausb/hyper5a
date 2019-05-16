@@ -14,22 +14,64 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="page-wrapper">
         <header>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm col-bg col-bg--red">
+                    <div class="col-sm-3 col-bg bg--red">
                         <h4>Lectură</h4>
                     </div>
-                    <div class="col-md col-bg col-bg--gray">
+                    <div class="col-sm-6 col-bg bg--gray">
                         <h4 class="text-right">De-a ce mă joc</h4>
                     </div>
-                    <div class="col-sm col-bg col-bg--purple">
+                    <div class="col-sm-3 col-bg bg--purple">
                         <h4>Unitatea II</h4>
                     </div>
                 </div>
             </div>
         </header>
+        <div class="inner-wrapper">
+            <h5 class="lesson__title color--orange"><strong>Lecția 3.</strong> Planul dezvoltat de idei </h5>
+            <h5 class="exercise__title bg--purple">Explorare</h5>
+            <section class="exercise exercise--1 bg--lighter-purple">
+                <h6><span class="exercice__no color--purple">1.</span> Grupează ideile din rubrica Explorare (pagina 49) într-un plan simplu, urmărind sugestiile din tabel. </h6>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label for="q1" class="exercise__question color--purple">Precizează cum începe acțiunea.
+                                <br>(Cine? Ce face? Unde? Când?)</label>
+                        </div>
+                        <div class="col-sm-9">
+                            <textarea rows="1" id="q1" class="exercise__answer bg--light-purple" type="text" placeholder="Un domn vine în vizită la doamna Popescu cu ocazia onomasticii fiului ei."></textarea>
+                        </div>
+                    </div>
+                    <div class="row py-2">
+                        <div class="col-sm-3">
+                            <label for="q2" class="exercise__question color--purple">
+                                Prezintă ce se întâmplă:<br>
+                                <ul class="exercise__list">
+                                    <li>cum se declanșează acțiunea;</li>
+                                    <li>cum se declanșează acțiunea;</li>
+                                    <li>cum se declanșează acțiunea;</li>
+                                </ul>
+                            </label>
+                        </div>
+                        <div class="col-sm-9">
+                            <textarea rows="4" id="q2" class="exercise__answer bg--light-purple" type="text"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label for="q3" class="exercise__question color--purple">Notează finalul întâmplării.</label>
+                        </div>
+                        <div class="col-sm-9">
+                            <textarea rows="1" id="q3" class="exercise__answer bg--light-purple" type="text"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="py-2"><span class="exercice__no color--purple">2.</span> Formulează o idee care să completeze, prin detalii, prima idee principală de la exercițiul anterior.</h6>
+            </section>
+        </div>
     </div>
 
     <!-- Optional JavaScript -->

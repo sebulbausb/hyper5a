@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: #e7e7e8;
+    color: #58585a;
 }
 
 h1,
@@ -10,26 +12,106 @@ h5 {
     font-family: 'Roboto Slab', serif;
 }
 
-.main {
+.page-wrapper {
     max-width: 1200px;
     margin: 0 auto;
+    background-color: white;
+}
+
+.inner-wrapper {
+    padding: 30px 50px;
 }
 
 .col-bg {
-    padding: 20px 20px 10px 30px;
+    padding: 20px 20px 10px 50px;
 }
 
-.col-bg--red {
-    background-color: red;
+.bg--red {
+    background-color: #da1f3d;
     color: white;
 }
 
-.col-bg--gray {
-    background-color: #f2f2f2;
-    color: purple;
+.bg--gray {
+    background-color: #e7e7e8;
+    color: #8a288f;
 }
 
-.col-bg--purple {
-    background-color: purple;
+.bg--purple {
+    background-color: #8a288f;
     color: white;
+}
+
+.bg--light-purple {
+    background-color: #b88bbf;
+}
+
+.bg--lighter-purple {
+    background-color: #f6f1f8;
+}
+
+.color--orange {
+    color: #f5821f;
+}
+
+.color--purple {
+    color: #8a288f;
+}
+
+.exercise {
+    padding: 10px;
+}
+
+.lesson__title {
+    line-height: 3;
+}
+
+.exercise__title {
+    display: inline-block;
+    margin: 0;
+    padding: 0 120px 0 10px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.exercise__question {
+    font-size: 14px;
+}
+
+.exercise__answer {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    resize: none;
+}
+
+.exercice__no {
+    font-weight: bold;
+}
+
+.exercise__list {
+    margin: 0;
+    padding-left: 16px;
+    list-style-type: square;
+}
+
+.exercise__answer::-webkit-input-placeholder {
+    /* Edge */
+    color: white;
+}
+
+.exercise__answer:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.exercise__answer::placeholder {
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .exercise__answer {
+        min-height: 100px;
+    }
 }
